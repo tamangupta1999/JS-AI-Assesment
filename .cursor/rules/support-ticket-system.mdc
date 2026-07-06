@@ -1,0 +1,21 @@
+# Support Ticket System — Cursor Rules
+
+## Stack
+- Next.js 16 + Fastify 5 + PostgreSQL + Drizzle ORM
+- pnpm monorepo with packages/shared for Zod schemas
+
+## Patterns
+- State machine in packages/shared — never duplicate transition logic
+- Status changes ONLY via PATCH /tickets/:id/status
+- JWT access + Postgres session for auth
+- RBAC at API middleware level
+
+## Quality
+- TypeScript strict, ESM modules
+- No secrets in repo
+- Validate all inputs with Zod from @repo/shared
+- Minimal scope changes — match existing conventions
+
+## Testing
+- State machine integration tests are mandatory
+- Run pnpm test before claiming completion
