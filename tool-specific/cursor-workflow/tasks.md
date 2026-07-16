@@ -47,4 +47,14 @@
 - [x] OpenAPI/Swagger at /docs
 - [x] README with setup instructions
 - [x] Cursor workflow artifacts
-- [x] Prompt history
+- [x] AI prompt history (ai-prompts/)
+
+## Phase 8: Assessment Submission Artifacts
+- [x] candidate-info.md, requirements-analysis.md, acceptance-criteria.md
+- [x] implementation-plan.md, design-notes.md, api-contract.md
+- [x] data-model.md, ui-flow.md
+- [x] test-strategy.md, test-results.md
+- [x] debugging-notes.md, code-review-notes.md, review-fixes.md
+- [x] pr-description.md, reflection.md, final-ai-usage-summary.md
+- [x] database/setup-notes.md
+- [x] ai-prompts/ (planning, design, implementation, testing, debugging, code-review, documentation)

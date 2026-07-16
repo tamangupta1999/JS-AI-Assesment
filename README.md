@@ -128,10 +128,52 @@ support-ticket-system/
 ├── packages/
 │   ├── db/           # Drizzle schema, migrations, seed
 │   └── shared/       # Zod schemas, constants, state machine
-├── tool-specific/cursor-workflow/  # Cursor assignment artifacts
-├── prompt-history/   # AI prompt log
+├── database/
+│   └── setup-notes.md
+├── ai-prompts/       # AI prompt history by activity
+├── tool-specific/cursor-workflow/
 └── docker-compose.yml
 ```
+
+### Assessment Structure Mapping
+
+Assignment expects `ai-practical-assessment/` layout. This monorepo maps as follows:
+
+| Required path | This repo |
+|---------------|-----------|
+| `src/` | `apps/` + `packages/` |
+| `tests/` | `apps/api/tests/`, `packages/shared/src/**/*.test.ts` |
+| `database/schema-or-migrations/` | `packages/db/migrations/` |
+| `database/seed-data/` | `packages/db/src/seed.ts` |
+| `database/setup-notes.md` | `database/setup-notes.md` |
+| `ai-prompts/` | `ai-prompts/` |
+| `tool-specific/cursor-workflow/` | `tool-specific/cursor-workflow/` |
+
+## Assessment Artifacts
+
+Lifecycle documents for AI Capability Exercise submission:
+
+| Document | Purpose |
+|----------|---------|
+| [candidate-info.md](candidate-info.md) | Candidate and project metadata |
+| [requirements-analysis.md](requirements-analysis.md) | Requirement breakdown |
+| [acceptance-criteria.md](acceptance-criteria.md) | Completion checklist |
+| [implementation-plan.md](implementation-plan.md) | Phased build plan |
+| [design-notes.md](design-notes.md) | Architecture and design |
+| [api-contract.md](api-contract.md) | API endpoint documentation |
+| [data-model.md](data-model.md) | Database schema |
+| [ui-flow.md](ui-flow.md) | Page map and user journeys |
+| [test-strategy.md](test-strategy.md) | Test scope |
+| [test-results.md](test-results.md) | Test run output |
+| [debugging-notes.md](debugging-notes.md) | Bug investigations |
+| [code-review-notes.md](code-review-notes.md) | Review findings |
+| [review-fixes.md](review-fixes.md) | Post-review fixes |
+| [pr-description.md](pr-description.md) | Submission summary |
+| [reflection.md](reflection.md) | Lifecycle reflection |
+| [final-ai-usage-summary.md](final-ai-usage-summary.md) | AI usage rollup |
+| [tool-workflow.md](tool-workflow.md) | Part A AI workflow |
+| [ai-prompts/](ai-prompts/) | Structured prompt history |
+| [tool-specific/cursor-workflow/](tool-specific/cursor-workflow/) | Cursor tool artifacts |
 
 ## API Endpoints
 

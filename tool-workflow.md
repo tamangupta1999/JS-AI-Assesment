@@ -70,3 +70,18 @@
 3. Centralized business rules (state machine) in one module with tests
 4. Spec-driven development with tasks.md tracking progress
 5. Keep prompt history for traceability and reflection
+
+## Related Artifacts
+
+| Document | Link |
+|----------|------|
+| Requirement analysis | [requirements-analysis.md](requirements-analysis.md) |
+| Implementation plan | [implementation-plan.md](implementation-plan.md) |
+| Design notes | [design-notes.md](design-notes.md) |
+| Prompt history | [ai-prompts/](ai-prompts/) |
+| Debugging notes | [debugging-notes.md](debugging-notes.md) |
+| Code review notes | [code-review-notes.md](code-review-notes.md) |
+| Test results | [test-results.md](test-results.md) |
+| Reflection | [reflection.md](reflection.md) |
+| AI usage summary | [final-ai-usage-summary.md](final-ai-usage-summary.md) |
+| Cursor workflow | [tool-specific/cursor-workflow/](tool-specific/cursor-workflow/) |

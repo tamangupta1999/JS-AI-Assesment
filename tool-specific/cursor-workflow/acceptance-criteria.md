@@ -12,7 +12,7 @@
 - [x] Data remains available after restart (PostgreSQL persistence)
 - [x] Backend validation prevents invalid records
 - [x] No secrets committed to the repo
-- [x] State-machine integration tests written and pass (requires PostgreSQL)
+- [x] State-machine integration tests written and pass (16/16)
 
 ## Stretch
 
@@ -30,7 +30,7 @@
 - [x] Docker Compose setup
 - [x] GitHub Actions CI workflow
 - [x] Cursor workflow artifacts (project-context, spec, tasks, rules)
-- [x] Full prompt history
+- [x] Full prompt history in ai-prompts/
 - [x] README setup instructions
 
 ## Cursor Tool Requirements
@@ -41,4 +41,24 @@
 - [x] tool-specific/cursor-workflow/acceptance-criteria.md
 - [x] tool-specific/cursor-workflow/cursor-rules-or-instructions.md
 - [x] tool-workflow.md (Part A)
-- [x] prompt-history/ directory
+- [x] ai-prompts/ directory (7 activity files)
+
+## Root Lifecycle Artifacts
+
+- [x] candidate-info.md
+- [x] requirements-analysis.md
+- [x] acceptance-criteria.md (root)
+- [x] implementation-plan.md
+- [x] design-notes.md
+- [x] api-contract.md
+- [x] data-model.md
+- [x] ui-flow.md
+- [x] test-strategy.md
+- [x] test-results.md
+- [x] debugging-notes.md
+- [x] code-review-notes.md
+- [x] review-fixes.md
+- [x] pr-description.md
+- [x] reflection.md
+- [x] final-ai-usage-summary.md
+- [x] database/setup-notes.md
